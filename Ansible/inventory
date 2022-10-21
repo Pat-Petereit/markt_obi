@@ -1,0 +1,11 @@
+all:
+  children:
+    dbservers:
+      hosts:
+        157.230.20.202:
+    webservers:
+      hosts:
+        46.101.193.116
+  vars:
+     ansible_user: root
+
